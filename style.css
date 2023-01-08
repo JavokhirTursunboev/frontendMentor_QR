@@ -100,7 +100,7 @@ body {
   background-color: var(--white);
   width:300px;
   height: auto; 
-  padding: 15px 15px 30px 15px;
+  padding: 15px 15px 40px 15px;
 }
 .product_img {
   display: flex;
@@ -114,23 +114,21 @@ body {
 }
 
 .product-content {
-  margin-top: 25px;
-  margin-right: 20px;
-  margin-left: 25px;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-gap: 10px;
-  text-align: center;
+ text-align: center;
+ padding: 15px 15px 0px 15px;
+ margin:0;
 }
 h1 {
   font-family: "Outfit" sans-serif;
   font-weight: 700;
   color: var(--blue--dark);
+  padding: 15px;
 }
 p {
   color: var(--blue_grayish);
   font-family: "Outfit" sans-serif;
   font-size: 0.9375rem;
+  
 }
 @media (min-width: 500px) {
   .product {
